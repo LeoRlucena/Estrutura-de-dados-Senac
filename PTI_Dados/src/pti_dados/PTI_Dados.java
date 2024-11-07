@@ -1,20 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package pti_dados;
 
 import arvore.ArvoreBinaria;
-import arvore.No;
-/**
- *
- * @author Léo
- */
-public class PTI_Dados {
 
-    /**
-     * @param args the command line arguments
-     */
+public class PTI_Dados {
     public static void main(String[] args) {
         ArvoreBinaria arvore = new ArvoreBinaria();
         
@@ -28,8 +16,6 @@ public class PTI_Dados {
         int esquerdaFestiva = arvore.contarNosEsquerdaFestiva();
         System.out.println("Numero de nós da esquerda festiva: " + esquerdaFestiva);
         
-        System.out.println("Árvore com recuos: ");
         arvore.imprimeArvore();
-    }
-    
+    }   
 }

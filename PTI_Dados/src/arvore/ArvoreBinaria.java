@@ -12,13 +12,7 @@ public class ArvoreBinaria {
 
     private No raiz;
 
-    public ArvoreBinaria() {
-        this.raiz = null;
-    }
-
-    public void setRaiz() {
-        this.raiz = raiz;
-    }
+    public ArvoreBinaria() { this.raiz = null; }
 
     public void inserir(long id) {
         raiz = inserirRecursivo(raiz, id);
